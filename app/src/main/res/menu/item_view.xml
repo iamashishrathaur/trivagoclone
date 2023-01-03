@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/recently"
+    android:title="Recently viewed"/>
+    <item android:id="@+id/help"
+        android:title="Help and support"/>
+    <item android:id="@+id/login"
+        android:title="Log in"/>
+    <group>
+        <item android:title="Settings">
+            <menu>
+                <item android:id="@+id/country"
+                    android:title="Country"/>
+                <item android:id="@+id/currency"
+                    android:title="Currency"/>
+            </menu>
+        </item>
+    </group>
+</menu>
